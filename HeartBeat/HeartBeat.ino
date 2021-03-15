@@ -3,7 +3,7 @@
 const int rs =  4, en = 9, d4 = 8, d5 = 7, d6 = 6, d7 = 5, led = 0, led2 = 3;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
-
+//test
 int sensorHistory[25], peakGap, lastPeakGap, palp, beatCount, counter = 0, dataCounter = 0;
 unsigned long peakTime, lastPeakTime;
 float bpm, beats[50], temp;
